@@ -1,0 +1,2 @@
+npx --no -- tsc --noEmit
+npx --no -- lint-staged --quiet

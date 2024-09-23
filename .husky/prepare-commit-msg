@@ -1,0 +1,3 @@
+if [ -z "$HUSKY_GIT_PARAMS" ] && [ -z "$COMMITIZEN_SKIP" ]; then
+    exec < /dev/tty && npx cz --hook || true
+fi
